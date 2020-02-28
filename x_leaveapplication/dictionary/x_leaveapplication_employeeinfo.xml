@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="EmployeeInfo" max_length="40" name="x_leaveapplication_employeeinfo" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="EmployeeName" max_length="40" name="employeename" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="LeaveType" max_length="40" name="leavetype" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>
